@@ -15,7 +15,7 @@ class AppFixtures extends Fixture
         $manager->persist($marque1);
 
         $marque2 =new Marque();
-        $marque2->setLibelle('YAMAHA');
+        $marque2->setLibelle('Triumph');
         $manager->persist($marque2);
         
         $manager->flush();
